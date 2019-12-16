@@ -25,8 +25,8 @@ remove_action( 'wp_head', 'wlwmanifest_link');
 // Remove WordPress version number
 remove_action('wp_head', 'wp_generator');
 
-add_filter('the_generator', 'gk_remove_wp_version');
-function gk_remove_wp_version() {
+add_filter('the_generator', 'remove_wp_version');
+function remove_wp_version() {
 	return '';
 }
 
