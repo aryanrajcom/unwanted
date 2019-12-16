@@ -69,3 +69,6 @@ function disable_wp_responsive_image_sizes($sizes) {
 	return $sizes;
 }
 add_filter('intermediate_image_sizes_advanced', 'disable_wp_responsive_image_sizes');
+
+// Disable image scaling in WP.5.3+
+add_filter( 'big_image_size_threshold', '__return_false' );
