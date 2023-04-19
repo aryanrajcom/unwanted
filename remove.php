@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Unwanted
- * Plugin URI:  https://www.aryanraj.com/
+ * Plugin URI:  https://github.com/aryanrajseo/unwanted
  * Description: Remove Unwanted Features from WordPress.
  * Author:      Aryan Raj
  * Author URI:  https://www.aryanraj.com/
